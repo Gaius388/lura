@@ -1,5 +1,4 @@
 import React from "react";
-// import { a } from "react-router-dom";
 import threeDayHome from "../../public/threeday_home.svg";
 import monthlyHome from "../../public/monthly_home.svg";
 import yearlyHome from "../../public/yearly_home.svg";
@@ -52,8 +51,8 @@ const PaymentPlan = () => {
             <button
               className="border-2 border-purpleLura text-purpleLura px-8 rounded-3xl text-xs py-1 font-bold"
               onClick={() => {
-                router.push("./subscription");
                 addToCart("3-Day Trial", 0, 0);
+                router.push("./subscription");
               }}
             >
               Select

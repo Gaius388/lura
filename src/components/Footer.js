@@ -7,22 +7,22 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="h-[55vh] bg-purpleLura p-[1.5em] sm:px-[3em] text-white grid sm:grid-cols-2 z-0 pt-[7.5em]">
+    <div className="min-h-[55vh] bg-purpleLura px-[1.5em] sm:px-[3em] text-white grid sm:grid-cols-2 z-0 pt-[7.5em] pb-8">
       <div className="grid content-between mb-4 sm:mb-0">
         <Image src={luraFooter} alt="footer-logo" className="w-[6em]" />
         <p className="text-xs sm:w-[42%] leading-relaxed">
           LuraVPN is a private virtual network that has unique features and has
           high security.
         </p>
-        <div className="flex gap-3 text-purpleLura">
+        <div className="flex gap-3 text-purpleLura my-4">
           <FaFacebookF className="p-1 bg-white text-xl rounded-full" />
           <SiTwitter className="p-1 bg-white text-xl rounded-full" />
           <ImInstagram className="p-1 bg-white text-xl rounded-full" />
         </div>
         <p className="text-xs">&#169;2023LuraVPN</p>
       </div>
-      <div className="flex justify-evenly text-xs">
-        <ul className="grid content-between">
+      <div className="flex justify-evenly text-xs pb-10 sm:pb-0">
+        <ul className="grid content-between gap-2">
           <h3 className="font-bold text-sm">Product</h3>
           <li>Download</li>
           <li>Pricing</li>

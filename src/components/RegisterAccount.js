@@ -18,13 +18,13 @@ const RegisterAccount = () => {
       body: JSON.stringify(values),
     };
 
-    await fetch("http://localhost:3000/api/auth/signup", options)
+    await fetch("/api/auth/signup", options)
       .then((res) => res.json())
       .then((data) => {
         if (data.error) {
           setSubmitError(data.error);
         }
-        if (data.success) router.push("http://localhost:3000/login");
+        if (data.success) router.push("/login");
       });
   };
   const validate = (values) => {

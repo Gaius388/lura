@@ -16,9 +16,11 @@ const Pricing = () => {
         </p>
       </section>
       <PaymentPlan />
-      <WorldMapConnect />
+      <div className="mx-4">
+        <WorldMapConnect />
+      </div>
       <FeaturesHighlight />
-        <Testimonials />
+      <Testimonials />
       <div className="w-5/6 sm:w-2/6 mx-auto py-5">
         <p className="text-2xl leading-relaxed text-center font-light">
           Military-Grade Date Protection Unrestricted Access to Content. Fast

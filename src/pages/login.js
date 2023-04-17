@@ -19,9 +19,9 @@ const LoginPage = () => {
   }
   return (
     <Layout>
-      <div className="px-20 flex flex-col justify-evenly">
+      <div className="px-8 sm:px-20 flex flex-col justify-evenly">
         <section className="flex justify-between">
-          <select className="ml-auto border">
+          <select className="ml-auto border text-xs font-medium outline-none">
             <option>English(US)</option>
           </select>
         </section>
@@ -29,30 +29,30 @@ const LoginPage = () => {
           <h1 className="text-2xl">Welcome Back!</h1>
           <div className="flex justify-between mt-4">
             <div className="border rounded-md shadow-md text-gray-400 font-light text-xs flex items-center px-2 py-1.5 gap-2 cursor-pointer">
-              <FaFacebook className="text-black" />
+              <FaFacebook className="text-black sm:text-xs text-2xl" />
               <button
                 type="button"
-                className="text-xs font-semibold"
+                className="text-xs font-semibold "
                 onClick={handleFacebookSignIn}
               >
                 Login with Facebook
               </button>
             </div>
             <div className="border rounded-md shadow-md text-gray-400 font-light text-xs flex items-center px-2 py-1.5 gap-2 cursor-pointer">
-              <FcGoogle />
+              <FcGoogle className="sm:text-xs text-2xl" />
               <button
                 type="button"
-                className="text-xs font-semibold"
+                className="text-xs font-semibold "
                 onClick={handleGoogleSignIn}
               >
                 Sign in with Google
               </button>
             </div>
             <div className="border rounded-md shadow-md text-gray-400 font-light text-xs flex items-center px-2 py-1.5 gap-2 cursor-pointer">
-              <FaGithub className="text-black" />
+              <FaGithub className="text-black sm:text-xs text-2xl" />
               <button
                 type="button"
-                className="text-xs font-semibold"
+                className="text-xs font-semibold "
                 onClick={handleGitHubSignIn}
               >
                 Continue with Github

@@ -7,10 +7,7 @@ import {
 const product_reducer = (state, action) => {
   if (action.type === ADD_TO_CART) {
     const { name, amount, quantity } = action.payload;
-    const { tax, subtotal } = state.product;
-    if (amount === 0) {
-      return 0;
-    }
+    const { tax } = state.product;
     return {
       ...state,
       product: {

@@ -23,8 +23,8 @@ const Features = () => {
     <div className="px-[1.5em] sm:px-[3.5em] pb-4 pt-16">
       <section className="my-[3em]">
         <article className="sm:w-3/6">
-          <h2 className="text-3xl font-semibold">Ultimate Protection.</h2>
-          <h2 className="text-3xl font-semibold">Unlimited Content.</h2>
+          <h2 className="text-2xl sm:text-3xl font-semibold">Ultimate Protection.</h2>
+          <h2 className="text-2xl sm:text-3xl font-semibold">Unlimited Content.</h2>
           <p className="text-sm py-5">
             Lura VPN uses military-grade encryption technology, trusted and used
             by banks and military forces worldwide, with up to AES-256-GCM

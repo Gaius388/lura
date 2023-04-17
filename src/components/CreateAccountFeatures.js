@@ -5,7 +5,6 @@ import { CiMail } from "react-icons/ci";
 import { AiFillLock } from "react-icons/ai";
 import computerFeatures from "../../public/computer_features.svg";
 import Image from "next/image";
-import Link from "next/link";
 import { useFormik } from "formik";
 import { useRouter } from "next/router";
 import { BiHide, BiShow } from "react-icons/bi";
@@ -23,13 +22,13 @@ const CreateAccountFeatures = () => {
       body: JSON.stringify(values),
     };
 
-    await fetch("http://localhost:3000/api/auth/signup", options)
+    await fetch("/api/auth/signup", options)
       .then((res) => res.json())
       .then((data) => {
         if (data.error) {
           setSubmitError(data.error);
         }
-        if (data.success) router.push("http://localhost:3000/login");
+        if (data.success) router.push("/login");
       });
   };
   const validate = (values) => {

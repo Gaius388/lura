@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { signIn, signOut } from "next-auth/react";
+import { signIn} from "next-auth/react";
 import { useFormik } from "formik";
 import { useRouter } from "next/router";
 import { BiHide, BiShow } from "react-icons/bi";

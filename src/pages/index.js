@@ -20,7 +20,7 @@ const Home = () => {
             Digital Bandits are Everywhere. Keep your Data{" "}
             <span className="text-purpleLura">Secure</span>.
           </h3>
-          <p className="text-sm text-center sm:text-left mb-4 sm:mb-0">
+          <p className="text-sm text-center sm:text-left my-8 sm:my-2">
             Over 60 million devices get hacked every year. Keep your online
             activity and data shielded from malicious cyber crimes.
           </p>
@@ -32,15 +32,15 @@ const Home = () => {
           <Image src={desktopHome} alt="desktop home" />
         </div>
       </section>
-      <section className="py-4 bg-purpleLura grid items-center sm:grid-cols-3 sm:grid-rows-1 grid-rows-3 gap-y-10 sm:min-h-[8.5em] text-white rounded-lg mx-[1.5em] sm:mx-[3.5em] my-4">
-        <div className="border border-transparent sm:border-r-white border-b-white sm:border-b-transparent flex gap-5 items-center justify-center">
+      <section className="py-4 bg-purpleLura grid items-center sm:grid-cols-3 sm:grid-rows-1 grid-rows-3 sm:gap-y-10 sm:min-h-[8.5em] text-white rounded-lg mx-[1.5em] sm:mx-[3.5em] my-4">
+        <div className="border border-transparent sm:border-r-white border-b-white sm:border-b-transparent flex gap-5 items-center justify-center pb-10 sm:pb-0">
           <BsFillPersonFill className="p-2 rounded-full bg-white text-purpleLura text-4xl" />
           <div>
             <p className="font-bold text-md">90+</p>
             <p className="text-sm">Users</p>
           </div>
         </div>
-        <div className="border border-transparent border-r-white flex gap-5 justify-center items-center">
+        <div className="border border-transparent sm:border-r-white border-b-white sm:border-b-transparent flex gap-5 items-center justify-center pb-10 sm:pb-0 pt-4 sm:pt-0">
           <MdLocationOn className="p-2 rounded-full bg-white text-purpleLura text-4xl" />
           <div>
             <p className="font-bold text-md">16</p>
@@ -106,7 +106,7 @@ const Home = () => {
         </div>
         <Link
           href={"./register"}
-          className="bg-purpleLura sm:px-10 py-2.5 rounded-lg text-white text-xs font-bold"
+          className="bg-purpleLura sm:px-10 py-2.5 rounded-lg text-white text-xs font-bold text-center"
         >
           Create Account
         </Link>

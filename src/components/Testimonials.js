@@ -38,7 +38,7 @@ const Testimonials = () => {
   };
   return (
     <section className="my-16 text-center overflow-hidden">
-      <h2 className="text-2xl font-medium">Creating a Safer Digital World.</h2>
+      <h2 className="text-lg sm:text-2xl font-medium">Creating a Safer Digital World.</h2>
       <p className="text-xs py-4">
         See what our customers are saying about Lura VPN.
       </p>

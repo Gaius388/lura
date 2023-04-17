@@ -3,7 +3,7 @@ import Image from "next/image";
 const WorldMapConnect = () => {
   return (
     <section className="my-4 text-center">
-      <h2 className="text-2xl font-medium py-4">
+      <h2 className="text-lg sm:text-2xl sm:font-medium font-semibold py-4">
         Connect to more than 700 servers in 16 different locations.
       </h2>
       <p className="text-xs">
